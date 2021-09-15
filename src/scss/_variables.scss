@@ -1,0 +1,86 @@
+:root {
+  --white: #fff;
+  --black: #000;
+
+  --light-50: #d7d7d7;
+  --light-100: #d9d9d9;
+  --light-200: #dcdcdc;
+  --light-300: #e1e1e1;
+  --light-400: #e3e3e3;
+  --light-500: #e9e9e9;
+  --light-600: #ebebeb;
+  --light-700: #eeeeee;
+  --light-800: #f3f3f3;
+  --light-900: #fcfcfc;
+
+  --dark-50: #373737;
+  --dark-100: #353535;
+  --dark-200: #333333;
+  --dark-300: #2e2e2e;
+  --dark-400: #2c2c2c;
+  --dark-500: #272727;
+  --dark-600: #252525;
+  --dark-700: #222222;
+  --dark-800: #1d1d1d;
+  --dark-900: #121212;
+
+  // Spacing
+  --spacer: 1rem;
+  --spacer-y: var(--spacer);
+  --spacer-x: var(--spacer);
+
+  // Body
+  --body-bg-color: transparent;
+  --body-color: var(--dark-800);
+
+  // Grid containers
+  --container-max-width: 1140px;
+
+  // Components
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  --box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+  --box-shadow-lw: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  --box-shadow-md: 0 5px 40px rgba(0, 0, 0, 0.2);
+  --box-shadow-tl: 0 12px 28px 0 rgba(0, 0, 0, 0.2),
+    0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+  --transition-base: all 0.2s ease-in-out;
+  --transition-fade: opacity 0.15s linear;
+  --transition-collapse: height 0.35s ease;
+  --transition-fast: 200ms;
+  --transition-slow: 400ms;
+  --transition-timing-default: cubic-bezier(0.08, 0.52, 0.52, 1);
+
+  // Typography
+  --font-family-sans-serif: system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+  --font-family: var(--font-family-sans-serif);
+
+  --font-size: 1rem;
+
+  --font-weight-lighter: lighter;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 700;
+  --font-weight-bolder: bolder;
+  --font-weight: var(--font-weight-normal);
+
+  --line-height: 1.5;
+
+  // Links
+  --link-color: #551a8b;
+  --link-hover-color: #ff0000;
+  --link-outline-boxshadow: 0 0 0 0.0625rem rgb(130 138 145);
+
+  // Z-index
+  --zindex-underlay: -1;
+  --zindex-dropdown: 1;
+  --zindex-sticky: 2;
+  --zindex-fixed: 3;
+}
