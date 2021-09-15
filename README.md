@@ -1,13 +1,11 @@
 # edify-interview
 
-A single page application using React
+A single page application using React and Star Wars API to build List/Detail view.
 
-utilize a public API and build:
+To run the app, clone this repo and run the following commands:
 
-- List view
-- Detail view
-- On-page or API level filtering for the list view
-
-implement toggleable fake-delay mechanism that would simulate a network delay/slowdown on the site
-
-- preferably, delay can be configurable
+```shell
+yarn install
+yarn build
+yarn serve
+```
